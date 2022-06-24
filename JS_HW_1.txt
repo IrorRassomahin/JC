@@ -92,11 +92,7 @@ if (if_verification){
 else {console.log("Technical work")}
 
 
-if_verification = age_1 < age_3
-if (if_verification){
-    console.log("Welcome  !")
-}
-else {console.log("Technical work")}
+
  32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 #if_verification = age_1 > age_3
 if (if_verification){
