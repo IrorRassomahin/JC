@@ -84,18 +84,15 @@ JS. HW_1
     console.log("You don’t have access cause your age is " +  age_1  + " It’s less then")
 
  31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
-#if_verification = age_1 >= age_2
+#let if_verification
+if_verification = age_1 >= age_2 && age_1 < age_3
 if (if_verification){
     console.log("Welcome  !")
 }
 else {console.log("Technical work")}
 
 
-if_verification = age_1 < age_3
-if (if_verification){
-    console.log("Welcome  !")
-}
-else {console.log("Technical work")}
+
  32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 #if_verification = age_1 > age_3
 if (if_verification){
