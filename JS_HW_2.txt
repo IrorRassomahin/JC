@@ -28,6 +28,9 @@ if_verification = age_1 >= age_2 && age_1 < age_3
                 console.log("Welcome  !")
             }
             else {console.log("Technical work")}
+            
+            //или второй вариант #age_1 >= age_2 && age_1 < age_3 ? console.log("Welcome  !") : console.log("Technical work")
+            
 if_verification = age_1 > age_3
 if (if_verification){
     console.log("Welcome  !")}
@@ -58,6 +61,12 @@ if (if_verification){
             }
           }
 
+//или так): 
+function checkAge(age) {
+            typeof age === "number" && !Number.isNaN(age) && age !== Infinity && age !== -Infinity ? console.log(age) : Number(age), console.log(age)
+              
+              
+            }
 4***:
 Преобразовать задание 3* таким образом, чтобы возраст вводится используя функцию prompt в привязанной верстке
 <!DOCTYPE html>
